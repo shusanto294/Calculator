@@ -15,6 +15,7 @@ createApp({
           console.log(this.calculationString);
 
           if(input == '+' || input == '-' || input == '*' || input == '/'){
+              this.calculation = 0;
               this.calculationStringOnScreen = '';
           }
       },
